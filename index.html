@@ -19,12 +19,9 @@
       crossorigin="anonymous"
     ></script>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;800&family=Poppins:ital,wght@0,200;0,400;0,800;0,900;1,300;1,600;1,700;1,800&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;800&family=Montserrat:wght@200;300;400;500;700;800;900&family=Poppins:ital,wght@0,200;0,400;0,800;0,900;1,300;1,600;1,700;1,800&display=swap" rel="stylesheet">
 
     <link
       rel="stylesheet"
@@ -71,7 +68,7 @@
                 <a href="#contact" class="nav-link">Contact</a>
               </li>
               <li class="nav-item">
-                <a href="#project" class="nav-link">Projects</a>
+                <a href="projects.html" target="_blank" class="nav-link">Projects</a>
               </li>
             </ul>
           </div>
@@ -82,9 +79,8 @@
       </nav>
 
       <div class="home">
-        <h5>Hello, my name is</h5>
-        <h2>Adebayo Freeman</h2>
-        <h1>I am a <span class="green">Programmer</span></h1>
+        <h5 class="hello">Hello,</h5>
+        <h1 class="motion">I'm <span class="input"></span></h1>
       </div>
     </div>
 
@@ -110,8 +106,8 @@
    
 
                   <!-- SERVICES -->
-
-    <div class="container my-4 p-5" id="service">
+    <section id="service">
+       <div class="container  p-5" >
         <h1 class="mx-auto mb-5 py-1 px-4 border border-4 rounded-pill" style="width: fit-content;" >Services</h1>
         <div class="row row-cols-1 row-cols-md-4 g-md-4 ">
             <div class="col">
@@ -149,11 +145,15 @@
 
           </div>
     </div>
+    </section>
+   
 
               <!-- SKILLS -->
 
-    <div class="skills bg-light" id="skills">
-      <h1 class="mx-auto my-5 py-1 px-4 border border-dark border-4 rounded-pill " style="width: fit-content;">Skills</h1>
+
+    <section id="skills">
+       <div class="skills bg-light py-5">
+      <h1 class="mx-auto py-1 mb-5 px-4 border border-dark border-4 rounded-pill " style="width: fit-content;">Skills</h1>
       <div class="container mx-auto" style="width: 60%;">
         <div class="row row-cols-4 g-4 ">
           <div class="col justify-content-center d-flex p-2">
@@ -183,12 +183,14 @@
         </div>
       </div>
     </div>
+    </section>
+   
 
               <!-- CONTACT -->
 
     <div class="bg-dark">
       <div class="container bg-light contact p-4 text-dark bg" id="contact">
-        <h3>Let's Get You a Beautiful Website</h3>
+        <h3 class="pt-2">Let's Get You a Beautiful Website</h3>
         <a class="btn outline btn-dark mt-4" href="mailto:adebayofreeman4@gmail.com?Subject=Contact Us">Contact Us</a>
       </div> 
       
@@ -204,8 +206,15 @@
       </footer>
     </div>
   
-    
-    
-
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".input", {
+        strings:["Adebayo Freeman", "Programmer", "Web Developer", "Software Engineer"],
+        typeSpeed: 70,
+        backSpeed: 60,
+        loop: true
+      });
+    </script>
   </body>
 </html>

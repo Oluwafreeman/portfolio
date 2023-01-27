@@ -1,68 +1,88 @@
-.hero{
-    background-image: url("../images/cover.jpg");
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    max-width: 100%;
-    height: 100vh;
-    overflow:hidden;
+body {
+  color: white;
+  width: 100%;
+  font-family: poppins;
 }
 
-body, .card{
-    background-color: #000;
-    color: white;
-    width: 100%;
+.card {
+  background-color: #000;
 }
 
-.img{
-    background-color: #000;
-    width: 75%;
-
+.hero {
+  background-image: url("../images/cover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
 
-.home{
-    position: absolute;
-    top: 50%;
-    left: 8%;
-    transform: translateY(-50%);
-
+.img {
+  background-color: #000;
+  width: 75%;
 }
 
-i:hover{
-    scale: 1.2;
+.home {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
 }
 
-.green{
-    color: green;
-    text-shadow: 2px 1px 1px rgb(25, 43, 58);
+i:hover {
+  scale: 1.2;
 }
 
-.skills{
-    width: 100%;
-    /* background-color: #fff; */
-    color: #000;
-    padding-top: 5px;
+.input {
+  color: #ff8d29;
+  text-shadow: 2px 1px 1px #8d0909;
 }
 
-.contact{
-    text-align: center;
-    margin-top: -1px;
+.motion {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }
 
-footer{
-    text-align: center;
+.hello{
+  font-size: 1.5rem;
+  color: #ff4949;
 }
 
-footer i{
-    transition: transform 0.5s;
+#about {
+  background-color: #000;
 }
 
-footer i:hover{
-    transform: scale(1.5);
-    cursor: pointer;
+#service {
+  background-color: #000;
 }
 
-.outline:hover{
-    background-color: transparent;
-    color: #000;
+.skills {
+  width: 100%;
+  color: #000;
+  padding-top: 5px;
+}
+
+.contact {
+  text-align: center;
+  margin-top: -1.5px;
+}
+
+footer {
+  text-align: center;
+  color: #c0cec9;
+}
+
+footer i {
+  transition: transform 0.5s;
+}
+
+footer i:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.outline:hover {
+  background-color: transparent;
+  color: #000;
 }
